@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
   <img 
-    src="./public/__logo.png" 
+    src="./public/WalnutTranslateLogo.png" 
     alt="walnut-translate-logo" 
     style="width: 60px; height: 60px; border-radius: 50%;"
   >
