@@ -1,4 +1,4 @@
-import { TbArrowNarrowRightDashed } from "react-icons/tb";
+import SelectorBox from "../SelectorBox/SelectorBox";
 
 const Content = () => {
   return (
@@ -12,23 +12,7 @@ const Content = () => {
           translation for you
         </p>
       </div>
-      <div className="flex items-center justify-center gap-4 md:gap-9 lg:gap-10 mt-20">
-        <div
-          className="text-white px-9 py-3 md:px-15 md:py-3 lg:px-20 lg:py-4 rounded-full 
-                  bg-white/10 backdrop-blur-md border border-white/20 shadow-lg
-                  transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:cursor-pointer"
-        >
-          English
-        </div>
-        <TbArrowNarrowRightDashed className="text-white" size={33} />
-        <div
-          className="text-white px-9 py-3 md:px-15 md:py-3 lg:px-20 lg:py-4 rounded-full 
-                  bg-white/10 backdrop-blur-md border border-white/20 shadow-lg
-                  transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:cursor-pointer"
-        >
-          Bengali
-        </div>
-      </div>
+      <SelectorBox />
     </div>
   );
 };
