@@ -1,7 +1,7 @@
 .dropdownStyle {
-  @apply absolute top-full flex flex-col mt-2 w-30 md:w-52 lg:w-52 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg max-h-60 overflow-x-hidden transition-all duration-300;
+  @apply absolute top-full flex flex-col mt-2 w-22 md:w-35 lg:w-45 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg max-h-60 overflow-x-hidden transition-all duration-300;
 }
 
 .itemStyle {
-  @apply px-4 py-2 text-white hover:bg-white/20 hover:rounded-xl cursor-pointer transition-colors duration-200;
+  @apply text-sm px-4 py-2 text-white hover:bg-white/20 hover:rounded-xl cursor-pointer transition-colors duration-200;
 }

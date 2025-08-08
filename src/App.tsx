@@ -1,8 +1,8 @@
 // Modules
-import Content from "./components/Content/Content";
+/** biome-ignore-all assist/source/organizeImports: <What the hell is this ? Why do we need is sorted> */
 import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
 import Microphone from "./components/Microphone/Microphone";
-
 import { motion } from "motion/react";
 
 const App: React.FC = () => {

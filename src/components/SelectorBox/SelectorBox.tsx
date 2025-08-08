@@ -1,3 +1,4 @@
+/** biome-ignore-all assist/source/organizeImports: <What the hell is this ? Why do we need is sorted> */
 import { useState } from "react";
 
 // Modules
@@ -9,8 +10,8 @@ const SelectorBox: React.FC = () => {
     "english" | "bengali" | null
   >(null);
 
-  const [baseLanguage, setBaseLanguage] = useState("English");
-  const [targetLanguage, setTargetLanguage] = useState("Bengali");
+  const [baseLanguage, setBaseLanguage] = useState("En");
+  const [targetLanguage, setTargetLanguage] = useState("Be");
 
   return (
     <div className="flex items-center justify-center gap-4 md:gap-9 lg:gap-10 mt-20 relative">
